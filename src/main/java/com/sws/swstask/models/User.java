@@ -25,4 +25,7 @@ public class User {
     private String email;
 
     private String phoneNumber;
+
+    public User(String lastName, String firstName, String patronymic, String email, String phoneNumber) {
+    }
 }
