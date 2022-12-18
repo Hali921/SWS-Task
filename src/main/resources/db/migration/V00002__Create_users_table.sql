@@ -1,0 +1,1 @@
+CREATE TABLE users (id INT, lastName VARCHAR(20), firstName VARCHAR(20), patronymic VARCHAR(20) , email VARCHAR (20), phoneNumber VARCHAR(20));
