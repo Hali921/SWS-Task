@@ -16,7 +16,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public void addUser(UserForm form) {
-        User user = new User(form.getLastName(), form.getFirstName(), form.getPatronymic(), form.getEmail(), form.getPhoneNumber());
+        User user = new User(form.getLast_name(), form.getFirst_name(), form.getPatronymic(), form.getEmail(), form.getPhone_number());
         userRepository.save(user);
     }
 
